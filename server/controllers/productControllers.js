@@ -1,9 +1,9 @@
 
 import Product from '../models/productModel.js';
 
-// ==============================
+
 // ADD PRODUCT
-// ==============================
+
 export const addProduct = async (req, res) => {
     try {
         const {
